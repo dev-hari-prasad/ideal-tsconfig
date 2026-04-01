@@ -1,11 +1,4 @@
-<p>
-	<span style="display: inline-flex; align-items: center; gap: 8px; white-space: nowrap;">
-		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/250px-Typescript_logo_2020.svg.png" alt="TypeScript logo" width="44" />
-		<strong>Ideal tsconfig.json settings</strong>
-	</span>
-</p>
-
-<h1 align="center">Ideal TypeScript tsconfig</h1>
+<h1 align="center">Ideal TS tsconfig.json settings</h1>
 
 This project is a simple reference for a practical and strict TypeScript setup.
 It helps you start new projects with safer defaults and cleaner code checks. Simply copy the `tsconfig.json` file into your project or copy the relevant options into your existing configuration.
