@@ -1,0 +1,57 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Environment Settings - adjust as needed
+    "module": "nodenext",
+    "target": "esnext",
+    "types": [],
+
+    // Optional for nodejs:
+    // "lib": ["esnext"],
+    // "types": ["node"],
+    // and npm install -D @types/node
+
+    // Other Outputs
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+
+    // Style Options
+    // "noImplicitReturns": true,
+    // "noImplicitOverride": true,
+
+    // Must have tsc options
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowUnusedLabels": false,
+    "noUncheckedSideEffectsImports": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowUnreachableCode": false,
+
+
+    // Optional but highly recommended stricter options
+    "noUncheckedIndexedAccess": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "erasableSyntaxOnly": true,
+
+    // Nice to have preferences
+    "noImplicitOverride": true,
+
+    // Set this to true when you are debubbing and want to see the full error message, otherwise it can be very helpful to set it to false to avoid truncating error messages.
+    "noErrorTruncation": false,
+    "exactOptionalPropertyTypes": true,
+
+    // Recommended Options
+    "strict": true,
+    "jsx": "react-jsx",
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+  }
+}
